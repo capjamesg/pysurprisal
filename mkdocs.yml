@@ -1,0 +1,50 @@
+site_name: Surprisal
+site_url: https://capjamesg.github.io/pysurprisal
+site_author: capjamesg
+site_description: Calculate surprisal for words in text.
+repo_name: capjamesg/pysurprisal
+repo_url: https://github.com/capjamesg/pysurprisal
+edit_uri: https://github.com/capjamesg/pysurprisal/tree/main/docs
+copyright: capjamesg 2023.
+
+nav:
+  - Home: index.md
+  - Surprisal: surprisal.md
+  - Helpers: helpers.md
+
+theme:
+  name: 'material'
+  palette:
+    # Palette for light mode
+    - scheme: default
+      primary: 'custom'
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: 'custom'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - content.code.copy
+
+plugins:
+  - mkdocstrings
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.snippets
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
