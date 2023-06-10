@@ -1,11 +1,16 @@
-# Surprisal
+# pysurprisal
+
+[![version](https://badge.fury.io/py/pysurprisal.svg)](https://badge.fury.io/py/pysurprisal)
+[![downloads](https://img.shields.io/pypi/dm/pysurprisal)](https://pypistats.org/packages/pysurprisal)
+[![license](https://img.shields.io/pypi/l/pysurprisal)](https://github.com/capjamesg/pysurprisal/blob/main/LICENSE)
+[![python-version](https://img.shields.io/pypi/pyversions/pysurprisal)](https://badge.fury.io/py/pysurprisal)
 
 An implementation of surprisal in Python.
 
 ## Installation
 
 ```bash
-pip install surprisal
+pip install pysurprisal
 ```
 
 ## Usage
