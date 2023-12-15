@@ -20,7 +20,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/capjamesg/pysurprisal",
     install_requires=[
-        "scipy.special"
+        "scipy"
     ],
     packages=find_packages(exclude=("tests",)),
     extras_require={
